@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    color: #fff;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.fa-gamepad {
+    font-size: 18rem;
+    color: #fff;
+    opacity: 0.125;
+}
+
+.fn__title {
+    width: 100%;
+    font-size: 2em;
+}
+
+#fn__title__span {
+    color: rgb(22, 104, 255);
+}
+
+.coming-soon {
+    width: 100%;
+    font-size: 3em;
+}
+
+.brightness__container {
+    width: 100%;
+    margin: auto;
+}
+
+.slide {
+    width: 90%;
+    appearance: none;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+}
