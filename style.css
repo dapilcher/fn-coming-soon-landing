@@ -45,7 +45,7 @@ html, body {
 }
 
 #fn__title__span {
-    color: rgb(22, 104, 255);
+    color: rgb(51, 116, 255);
 }
 
 .coming-soon {
@@ -60,8 +60,28 @@ html, body {
 
 .slide {
     width: 90%;
+    -webkit-appearance: none;
     appearance: none;
-    height: 25px;
-    background: #d3d3d3;
+    height: 5px;
+    border-radius: 5px;
+    background: rgb(100,100,100);
     outline: none;
+}
+
+.slide::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: rgb(51, 116, 255);
+    cursor: pointer;
+}
+
+.slide::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(51, 116, 255);
+    cursor: pointer;
 }
