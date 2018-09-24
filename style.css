@@ -36,6 +36,7 @@ html, body {
     font-size: 18rem;
     color: #fff;
     opacity: 0.125;
+    transition: opacity .15s linear;
 }
 
 .fn__title {
